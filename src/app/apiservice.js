@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const httpClient = axios.create({
-    baseURL: 'https://sistemarm-teste.herokuapp.com'
+    baseURL: 'http://localhost:8080'
 })
 
 class ApiService {
